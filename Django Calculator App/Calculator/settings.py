@@ -26,8 +26,8 @@ SECRET_KEY = 'esw#4jd1o2=w#f83_n!%e%)xncniao#$we@3!1)-6!_gp@*y&('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vigorlife.id.vn']
-
+ALLOWED_HOSTS = []
+            #vigorlife.id.vn
 
 # Application definition
 
@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'whitenoise.middleware.WhiteNoiseMiddleware'     ###############
+    'whitenoise.middleware.WhiteNoiseMiddleware',     ###############
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
